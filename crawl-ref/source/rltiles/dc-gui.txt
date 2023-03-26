@@ -286,6 +286,10 @@ felids/cat3 SP_RECOMMENDED_FELID
 %compose body/animal_skin
 %finish SP_RECOMMENDED_KOBOLD
 %start
+%compose base/rat_m
+%compose body/animal_skin
+%finish SP_RECOMMENDED_RAT
+%start
 %compose base/merfolk_water_f
 %compose body/animal_skin
 %compose hair/green
@@ -362,6 +366,7 @@ enum:SP_RECOMMENDED_GHOUL SP_GHOUL
 enum:SP_RECOMMENDED_GNOLL SP_GNOLL
 enum:SP_RECOMMENDED_HUMAN SP_HUMAN
 enum:SP_RECOMMENDED_KOBOLD SP_KOBOLD
+enum:SP_RECOMMENDED_RAT SP_RAT
 enum:SP_RECOMMENDED_MERFOLK SP_MERFOLK
 enum:SP_RECOMMENDED_MINOTAUR SP_MINOTAUR
 enum:SP_RECOMMENDED_MUMMY SP_MUMMY

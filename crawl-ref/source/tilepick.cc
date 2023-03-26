@@ -4024,6 +4024,8 @@ static tileidx_t _tileidx_player_species_base(const species_type species)
             return TILEG_SP_HILL_ORC;
         case SP_KOBOLD:
             return TILEG_SP_KOBOLD;
+        case SP_RAT:
+            return TILEG_SP_RAT;
         case SP_MUMMY:
             return TILEG_SP_MUMMY;
         case SP_NAGA:

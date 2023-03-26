@@ -45,6 +45,8 @@ kobold_m KOBOLD
 kobold_f
 kobold2_m
 kobold2_f
+rat_m RAT
+rat_f
 mummy_m MUMMY
 mummy_f
 naga_f NAGA

@@ -618,6 +618,8 @@ tileidx_t tilep_species_to_base_tile(int sp, int level)
         return TILEP_BASE_ORC;
     case SP_KOBOLD:
         return TILEP_BASE_KOBOLD;
+    case SP_RAT:
+        return TILEP_BASE_RAT;
     case SP_MUMMY:
         return TILEP_BASE_MUMMY;
     case SP_NAGA:
@@ -756,6 +758,7 @@ void tilep_race_default(int sp, int level, dolls_data *doll)
         case SP_GHOUL:
         case SP_HILL_ORC:
         case SP_KOBOLD:
+        case SP_RAT:
         case SP_MUMMY:
         case SP_FORMICID:
         case SP_BARACHI:

@@ -77,6 +77,10 @@ Kobold
 Kobolds are attuned to the shadows and can only see or be seen at a close range.
 They are small and a little fragile, and are talented in most skills.
 %%%%
+Rat
+
+Rats are sneaky.
+%%%%
 Merfolk
 
 Half fish, half human, Merfolk are citizens of both water and land. They are
