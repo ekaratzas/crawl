@@ -2,7 +2,7 @@ enum: SP_ARMATAUR
 monster: MONS_ARMATAUR
 name: "Armataur"
 short_name: "At"
-difficulty: Simple
+difficulty: false
 difficulty_priority: 60
 species_flags:
   - SPF_SMALL_TORSO
@@ -53,13 +53,3 @@ mutations:
     MUT_DEFORMED: 1
     MUT_LONG_TONGUE: 1
     MUT_AWKWARD_TONGUE: 1
-recommended_jobs:
-  - JOB_FIGHTER
-  - JOB_BERSERKER
-  - JOB_WARPER
-  - JOB_HEDGE_WIZARD
-recommended_weapons:
-  - SK_UNARMED_COMBAT
-  - SK_MACES_FLAILS
-  - SK_AXES
-  - SK_STAVES

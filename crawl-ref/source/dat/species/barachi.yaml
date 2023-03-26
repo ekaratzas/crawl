@@ -3,7 +3,7 @@ monster: MONS_BARACHI
 name: "Barachi"
 adjective: "Barachian"
 genus: "Frog"
-difficulty: Intermediate
+difficulty: false
 difficulty_priority: 20
 species_flags:
   - SPF_NO_HAIR
@@ -46,11 +46,3 @@ mutations:
     MUT_DAYSTALKER: 1
   13:
     MUT_HOP: 1
-recommended_jobs:
-  - JOB_FIGHTER
-  - JOB_BERSERKER
-  - JOB_WARPER
-  - JOB_HEXSLINGER
-  - JOB_SUMMONER
-  - JOB_ICE_ELEMENTALIST
-  - JOB_REAVER

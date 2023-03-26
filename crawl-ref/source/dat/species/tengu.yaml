@@ -1,7 +1,7 @@
 enum: SP_TENGU
 monster: MONS_TENGU
 name: Tengu
-difficulty: Intermediate
+difficulty: false
 difficulty_priority: 50
 species_flags:
   - SPF_NO_HAIR
@@ -43,20 +43,5 @@ mutations:
     MUT_TALONS: 3
   5:
     MUT_TENGU_FLIGHT: 1
-recommended_jobs:
-  - JOB_BERSERKER
-  - JOB_REAVER
-  - JOB_HEDGE_WIZARD
-  - JOB_CONJURER
-  - JOB_SUMMONER
-  - JOB_FIRE_ELEMENTALIST
-  - JOB_AIR_ELEMENTALIST
-  - JOB_VENOM_MAGE
-recommended_weapons:
-  - SK_MACES_FLAILS
-  - SK_AXES
-  - SK_POLEARMS
-  - SK_LONG_BLADES
-  - SK_STAVES
 
 walking_verb: Glid

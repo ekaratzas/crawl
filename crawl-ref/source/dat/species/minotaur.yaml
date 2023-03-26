@@ -1,7 +1,7 @@
 enum: SP_MINOTAUR
 monster: MONS_MINOTAUR
 name: Minotaur
-difficulty: Simple
+difficulty: false
 difficulty_priority: 90
 aptitudes:
   xp: -1
@@ -46,9 +46,3 @@ mutations:
   1:
     MUT_HORNS: 2
     MUT_REFLEXIVE_HEADBUTT: 1
-recommended_jobs:
-  - JOB_FIGHTER
-  - JOB_GLADIATOR
-  - JOB_MONK
-  - JOB_HUNTER
-  - JOB_BERSERKER

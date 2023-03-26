@@ -3,7 +3,7 @@ monster: MONS_DEMONSPAWN
 name: "Demonspawn"
 short_name: "Ds"
 adjective: "Demonic"
-difficulty: Intermediate
+difficulty: false
 difficulty_priority: 80
 aptitudes:
   xp: -1
@@ -35,11 +35,3 @@ str: 8
 int: 9
 dex: 8
 levelup_stat_frequency: 4
-recommended_jobs:
-  - JOB_GLADIATOR
-  - JOB_BERSERKER
-  - JOB_HEDGE_WIZARD
-  - JOB_NECROMANCER
-  - JOB_FIRE_ELEMENTALIST
-  - JOB_ICE_ELEMENTALIST
-  - JOB_VENOM_MAGE

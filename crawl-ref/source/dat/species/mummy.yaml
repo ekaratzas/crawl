@@ -1,7 +1,7 @@
 enum: SP_MUMMY
 monster: MONS_MUMMY
 name: Mummy
-difficulty: Advanced
+difficulty: false
 difficulty_priority: 20
 aptitudes:
   xp: -1
@@ -51,10 +51,3 @@ mutations:
     MUT_NECRO_ENHANCER: 1
   13:
     MUT_NECRO_ENHANCER: 1
-recommended_jobs:
-  - JOB_CINDER_ACOLYTE
-  - JOB_HEDGE_WIZARD
-  - JOB_CONJURER
-  - JOB_NECROMANCER
-  - JOB_ICE_ELEMENTALIST
-  - JOB_SUMMONER

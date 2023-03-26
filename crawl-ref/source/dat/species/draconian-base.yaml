@@ -1,7 +1,7 @@
 enum: SP_BASE_DRACONIAN
 monster: MONS_DRACONIAN
 name: "Draconian"
-difficulty: Simple
+difficulty: false
 difficulty_priority: 50
 species_flags:
   - SPF_DRACONIAN
@@ -25,12 +25,3 @@ levelup_stat_frequency: 4
 mutations:
   1:
     MUT_COLD_BLOODED: 1
-recommended_jobs:
-  - JOB_BERSERKER
-  - JOB_TRANSMUTER
-  - JOB_CONJURER
-  - JOB_FIRE_ELEMENTALIST
-  - JOB_ICE_ELEMENTALIST
-  - JOB_AIR_ELEMENTALIST
-  - JOB_EARTH_ELEMENTALIST
-  - JOB_VENOM_MAGE

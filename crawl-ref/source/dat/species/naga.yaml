@@ -1,7 +1,7 @@
 enum: SP_NAGA
 monster: MONS_NAGA
 name: Naga
-difficulty: Advanced
+difficulty: false
 difficulty_priority: 60
 species_flags:
   - SPF_SMALL_TORSO
@@ -35,15 +35,6 @@ mutations:
     MUT_POISON_RESISTANCE: 1
   13:
     MUT_CONSTRICTING_TAIL: 1
-recommended_jobs:
-  - JOB_BERSERKER
-  - JOB_TRANSMUTER
-  - JOB_ENCHANTER
-  - JOB_FIRE_ELEMENTALIST
-  - JOB_ICE_ELEMENTALIST
-  - JOB_WARPER
-  - JOB_HEDGE_WIZARD
-  - JOB_VENOM_MAGE
 
 walking_verb: Slither
 altar_action: coil in front of

@@ -2,7 +2,7 @@ enum: SP_GHOUL
 monster: MONS_GHOUL
 name: Ghoul
 adjective: Ghoulish
-difficulty: Simple
+difficulty: false
 difficulty_priority: 30
 species_flags:
   - SPF_NO_HAIR
@@ -52,12 +52,3 @@ mutations:
     MUT_COLD_RESISTANCE: 1
     MUT_CLAWS: 1
     MUT_DEVOUR_ON_KILL: 1
-recommended_jobs:
-  - JOB_WARPER
-  - JOB_GLADIATOR
-  - JOB_MONK
-  - JOB_NECROMANCER
-  - JOB_ICE_ELEMENTALIST
-  - JOB_EARTH_ELEMENTALIST
-recommended_weapons:
-  - SK_UNARMED_COMBAT

@@ -4,7 +4,7 @@ name: "Octopode"
 short_name: "Op"
 adjective: "Octopoid"
 genus: "Octopus"
-difficulty: Advanced
+difficulty: false
 difficulty_priority: 50
 aptitudes:
   xp: 0
@@ -34,14 +34,6 @@ mutations:
 fake_mutations:
   - long: You cannot wear most types of armour.
     short: almost no armour
-recommended_jobs:
-  - JOB_TRANSMUTER
-  - JOB_HEDGE_WIZARD
-  - JOB_CONJURER
-  - JOB_BRIGAND
-  - JOB_FIRE_ELEMENTALIST
-  - JOB_EARTH_ELEMENTALIST
-  - JOB_VENOM_MAGE
 
 walking_verb: Wriggl
 altar_action: curl up in front of

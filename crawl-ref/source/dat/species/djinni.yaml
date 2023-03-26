@@ -2,7 +2,7 @@ enum: SP_DJINNI
 monster: MONS_DJINNI
 name: Djinni
 short_name: Dj
-difficulty: Intermediate
+difficulty: false
 difficulty_priority: 70
 aptitudes:
   xp: 1
@@ -49,12 +49,3 @@ mutations:
 fake_mutations:
   - long: You are immune to sickness and miasma.
   - short: sickness immunity
-recommended_jobs:
-  - JOB_GLADIATOR
-  - JOB_TRANSMUTER
-  - JOB_HEDGE_WIZARD
-  - JOB_FIRE_ELEMENTALIST
-  - JOB_ICE_ELEMENTALIST
-recommended_weapons:
-  - SK_SHORT_BLADES
-  - SK_LONG_BLADES

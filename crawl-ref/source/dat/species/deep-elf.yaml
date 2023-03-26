@@ -4,7 +4,7 @@ name: "Deep Elf"
 short_name: "DE"
 adjective: "Elven"
 genus: "Elf"
-difficulty: Intermediate
+difficulty: false
 difficulty_priority: 40
 aptitudes:
   xp: -1
@@ -41,16 +41,3 @@ dex: 10
 levelup_stat_frequency: 4
 levelup_stats:
   - int
-recommended_jobs:
-  - JOB_HEDGE_WIZARD
-  - JOB_CONJURER
-  - JOB_SUMMONER
-  - JOB_NECROMANCER
-  - JOB_FIRE_ELEMENTALIST
-  - JOB_ICE_ELEMENTALIST
-  - JOB_AIR_ELEMENTALIST
-  - JOB_EARTH_ELEMENTALIST
-  - JOB_VENOM_MAGE
-recommended_weapons:
-  - SK_SHORT_BLADES
-  - SK_STAVES
