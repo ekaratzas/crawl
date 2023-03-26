@@ -132,6 +132,7 @@ include Makefile.obj
 STDFLAG = -std=c++11
 
 CFOTHERS := -pipe $(EXTERNAL_FLAGS)
+CFOTHERS += -DRATCRAWL=1
 # Build with FORCE_SSE=y to get better seed stability on 32 bit x86 builds. It
 # is not recommended to do this unless you are building with contrib lua.
 # On any 64bit  builds where the arch supports it, (at least) sse2 is implied.
