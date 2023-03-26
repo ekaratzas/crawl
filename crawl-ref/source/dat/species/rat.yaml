@@ -1,7 +1,7 @@
-enum: SP_KOBOLD
-monster: MONS_KOBOLD
-name: Kobold
-difficulty: false
+enum: SP_RAT
+monster: MONS_RAT
+name: Rat
+difficulty: Intermediate
 difficulty_priority: 90
 aptitudes:
   xp: 1
@@ -32,3 +32,6 @@ levelup_stat_frequency: 5
 mutations:
   1:
     MUT_NIGHTSTALKER: 3
+
+recommended_jobs:
+  - JOB_BRIGAND

@@ -25,6 +25,7 @@ enum species_type
 #endif
     SP_HILL_ORC,
     SP_KOBOLD,
+    SP_RAT,
     SP_MUMMY,
     SP_NAGA,
     SP_OGRE,
